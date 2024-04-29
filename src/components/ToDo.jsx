@@ -7,7 +7,7 @@ import { RxCrossCircled } from "react-icons/rx";
 const ToDo = ({ text, id, setUpdateUI, setShowPopup, setPopupContent }) => {
   const deleteTodo = () => {
     axios
-      .delete(`https://todoappbackend-6c9n.onrender.com/api/v1/delete/${id}`)
+      .delete(`https://todoappbackend-2ubt.onrender.com/api/v1/delete/${id}`)
       .then((res) => {
         console.log(res.data);
         setUpdateUI((prevState) => !prevState);
