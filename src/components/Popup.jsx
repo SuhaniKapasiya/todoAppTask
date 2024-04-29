@@ -7,7 +7,7 @@ const Popup = ({ setShowPopup, popupContent, setUpdateUI }) => {
 
   const updateToDo = () => {
     axios
-      .put(`https://todoappbackend-6c9n.onrender.com/api/v1/update/${popupContent.id}`, { toDo: input })
+      .put(`https://todoappbackend-2ubt.onrender.com/api/v1/update/${popupContent.id}`, { toDo: input })
       .then((res) => {
         console.log(res.data);
         setUpdateUI((prevState) => !prevState);
