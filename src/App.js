@@ -12,7 +12,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get(`https://todoappbackend-6c9n.onrender.com/api/v1/get`)
+      .get(`https://todoappbackend-2ubt.onrender.com/api/v1/get`)
       .then((res) => {
         setToDos(res.data); // Update the toDos state with the fetched data
       })
@@ -21,7 +21,7 @@ function App() {
 
   const saveToDo = () => {
     axios
-      .post(`https://todoappbackend-6c9n.onrender.com/api/v1/save`, { toDo: input })
+      .post(`https://todoappbackend-2ubt.onrender.com/api/v1/save`, { toDo: input })
       .then((res) => {
         // setToDos([...toDos, res.data]); // Add the new ToDo to the toDos state
         setUpdateUI((prevState) => !prevState);
