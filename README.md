@@ -9,6 +9,16 @@ This is a simple ToDo application built using Express.js, MongoDB, and React.js.
 ![Screenshot 5](https://res.cloudinary.com/dtqnuyqei/image/upload/w_400/v1714567426/Screenshot_2024-04-30_001753_gmiohk.png)
 ![Screenshot 6](https://res.cloudinary.com/dtqnuyqei/image/upload/w_400/v1714567454/Screenshot_2024-04-30_001727_jcqj4a.png)
 
+## Technologies Used
+
+- **Frontend**:
+  - React.js
+  - Axios
+
+- **Backend**:
+  - Express.js
+  - MongoDB
+
 ## Features
 
 - Add ToDo items
