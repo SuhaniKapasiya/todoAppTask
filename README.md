@@ -1,85 +1,79 @@
 # ToDo Application
 
-A simple ToDo application built with Express.js, MongoDB, and React.js.
+This is a simple ToDo application built using Express.js, MongoDB, and React.js. It allows users to add, delete, and update ToDo items.
 
-![ToDo App Screenshot](/path/to/screenshot.png)
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Demo](#demo)
-- [Contributing](#contributing)
-- [License](#license)
-- [Acknowledgements](#acknowledgements)
-
-## Overview
-
-This ToDo application allows users to manage their tasks efficiently. Users can add new tasks, mark tasks as completed, update task descriptions, and delete tasks as needed. The application provides a user-friendly interface for managing tasks with ease.
+![Screenshot 1](https://res.cloudinary.com/dtqnuyqei/image/upload/v1714567360/Screenshot_2024-05-01_180741_fcrgvv.png)
+![Screenshot 2](https://res.cloudinary.com/dtqnuyqei/image/upload/v1714572395/Screenshot_2024-05-01_180820_bimh3k.png)
+![Screenshot 3](https://res.cloudinary.com/dtqnuyqei/image/upload/v1714572315/Screenshot_2024-05-01_180833_u4yyso.png)
+![Screenshot 4](https://res.cloudinary.com/dtqnuyqei/image/upload/v1714567397/Screenshot_2024-04-30_001820_gu0uxp.png)
+![Screenshot 5](https://res.cloudinary.com/dtqnuyqei/image/upload/v1714567426/Screenshot_2024-04-30_001753_gmiohk.png)
+![Screenshot 6](https://res.cloudinary.com/dtqnuyqei/image/upload/v1714567454/Screenshot_2024-04-30_001727_jcqj4a.png)
 
 ## Features
 
-- Add new tasks
-- Mark tasks as completed
-- Update task descriptions
-- Delete tasks
-- Responsive design for optimal viewing on various devices
+- Add ToDo items
+- Delete ToDo items
+- Update ToDo items
 
-## Technologies Used
+## Setup
 
-- **Frontend**: React.js
-- **Backend**: Express.js, MongoDB
-- **Styling**: Tailwind CSS
-- **Deployment**: Vercel (Frontend), Render (Backend)
+### Prerequisites
 
-## Installation
+Before you begin, ensure you have the following installed on your local machine:
 
-To run this application locally, follow these steps:
+- Node.js
+- MongoDB
+
+### Installation
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/your-username/todo-app.git
-Install dependencies:
-bash
-Copy code
-cd todo-app/frontend
-npm install
-cd ../backend
-npm install
-Start the development server:
-bash
-Copy code
-cd frontend
-npm start
-bash
-Copy code
-cd backend
-npm start
-Open the project in your browser at http://localhost:3000.
-Usage
-Open the ToDo application in your browser.
-Add new tasks using the input field.
-Click on a task to mark it as completed.
-Update task descriptions by clicking on the edit icon.
-Delete tasks by clicking on the delete icon.
-Demo
-View the live demo of the application:
+ git clone <repository-url>
+Navigate to the project directory:
 
-Frontend: ToDo App Frontend
-Backend: ToDo App Backend
+
+cd todo-application
+Install dependencies for the server:
+
+
+cd server
+npm install
+Install dependencies for the client:
+
+cd ../client
+npm install
+Configuration
+Create a .env file in the server directory:
+plaintext
+
+PORT=3001
+MONGODB_URI=<your-mongodb-uri>
+Running the Application
+Start the server:
+
+cd server
+npm start
+The server will run on http://localhost:3001.
+Start the client:
+
+
+cd client
+npm start
+The client will run on http://localhost:3000.
+Usage
+Add a ToDo item by typing in the input field and clicking the "Add" button.
+Delete a ToDo item by clicking the delete icon next to it.
+Update a ToDo item by clicking the edit icon next to it and entering the new text in the popp.
 Contributing
-Contributions are welcome! If you encounter any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+Contributions are welcome! Please fork the repository and submit a pull request.
 
 License
 This project is licensed under the MIT License.
 
-Acknowledgements
-Special thanks to external libraries and resources used in this project.
-vbnet
-Copy code
+Links
+Frontend: https://todo-app-task-tau.vercel.app/
+Backend: https://dashboard.render.com/web/srv-conssdkf7o1s73frh8mg/logs
 
-Replace `/path/to/screenshot.png` with the actual path to your screenshot image file. Let me know if you need further assistance!
+
+
+Make sure to replace `<repository-url>` in the Installation section wwith the actual URL of your GitHub repository.
