@@ -2,12 +2,12 @@
 
 This is a simple ToDo application built using Express.js, MongoDB, and React.js. It allows users to add, delete, and update ToDo items.
 
-![Screenshot 1](https://res.cloudinary.com/dtqnuyqei/image/upload/v1714567360/Screenshot_2024-05-01_180741_fcrgvv.png)
-![Screenshot 2](https://res.cloudinary.com/dtqnuyqei/image/upload/v1714572395/Screenshot_2024-05-01_180820_bimh3k.png)
-![Screenshot 3](https://res.cloudinary.com/dtqnuyqei/image/upload/v1714572315/Screenshot_2024-05-01_180833_u4yyso.png)
-![Screenshot 4](https://res.cloudinary.com/dtqnuyqei/image/upload/v1714567397/Screenshot_2024-04-30_001820_gu0uxp.png)
-![Screenshot 5](https://res.cloudinary.com/dtqnuyqei/image/upload/v1714567426/Screenshot_2024-04-30_001753_gmiohk.png)
-![Screenshot 6](https://res.cloudinary.com/dtqnuyqei/image/upload/v1714567454/Screenshot_2024-04-30_001727_jcqj4a.png)
+![Screenshot 1](https://res.cloudinary.com/dtqnuyqei/image/upload/w_400/v1714567360/Screenshot_2024-05-01_180741_fcrgvv.png)
+![Screenshot 2](https://res.cloudinary.com/dtqnuyqei/image/upload/w_400/v1714572395/Screenshot_2024-05-01_180820_bimh3k.png)
+![Screenshot 3](https://res.cloudinary.com/dtqnuyqei/image/upload/w_400/v1714572315/Screenshot_2024-05-01_180833_u4yyso.png)
+![Screenshot 4](https://res.cloudinary.com/dtqnuyqei/image/upload/w_400/v1714567397/Screenshot_2024-04-30_001820_gu0uxp.png)
+![Screenshot 5](https://res.cloudinary.com/dtqnuyqei/image/upload/w_400/v1714567426/Screenshot_2024-04-30_001753_gmiohk.png)
+![Screenshot 6](https://res.cloudinary.com/dtqnuyqei/image/upload/w_400/v1714567454/Screenshot_2024-04-30_001727_jcqj4a.png)
 
 ## Features
 
